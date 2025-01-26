@@ -1,12 +1,12 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender);
-  let img = 'https://raw.githubusercontent.com/DJDewmina/DEW-XMD/refs/heads/main/assets/DEW-XMD.jpg';
+  let img = 'https://i.imgur.com/YXp71EV.jpeg';
   let con = {
     key: {
       fromMe: false,
       participant: `${m.sender.split`@`[0]}@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}),
+      ...(m.chat ? { remoteJid: '94701515609@s.whatsapp.net' } : {}),
     },
     message: {
       contactMessage: {
@@ -17,12 +17,12 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   };
 
   let messageContent = {
-    text: 'DEW-MD IS RUNNING', // Text content in case a message body is needed
+    text: '*DEW-MD IS ALIVE NOW*', // Text content in case a message body is needed
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '© DEW-MD',
-        body: '© DEW-MD',
+        title: '© DEW-XMD',
+        body: '© DEW-XMD',
         thumbnailUrl: img,
         sourceUrl: 'https://whatsapp.com/channel/0029Varwcfc7YSd60AulNF2h',
         mediaType: 1,

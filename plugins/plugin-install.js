@@ -1,3 +1,4 @@
+
 import axios from 'axios'
 import fs from 'fs'
 import path from 'path'
@@ -30,7 +31,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
 
       // Write the Gist file content to the plugin file
       await fs.promises.writeFile(pluginPath, file.content)
-      m.reply(`*𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙸𝙽𝚂𝚃𝙰𝙻𝙻𝙴𝙳 𝙿𝙻𝚄𝙶𝙸𝙽 𝙸𝙽 𝚄𝙻𝚃𝚁𝙰-𝙼𝙳*`)
+      m.reply(`*SUCCESSESFULL INSTALLED PLUGIN IN DEW-XMD*`)
     }
   } catch (error) {
     throw `*Error Fetching or Saving The Plugin:* ${error.message}`

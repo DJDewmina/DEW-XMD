@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command}) => {
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let pp = './assets/DewBotLogo.jpg'
+let pp = './assets/DEW-XMD.jpg'
 let user = global.db.data.users[who]
 let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } = global.db.data.users[who]
 let { min, xp, max } = xpRange(user.level, global.multiplier)
@@ -40,7 +40,7 @@ let str = `
 🚀 *_Buckle up ${name}, ${greeting}! We're going on an adventure!_* 🚀
 
 📋 *_Quote of the day: ${quote}_* 📋
-> ➠ *Bot Name* : *DEW-MD*
+> ➠ *Bot Name* : *DEW-XMD*
 > ➠ *Version*     : *3 . 1 . 0*
 > ➠ *Type*          : *PLUGINS*
 > ➠ *Platform*   : *LINUX*
@@ -77,7 +77,7 @@ let str = `
 ◈┃• fancy
 ◈┗━♪♪━★━☆━⦿
 
-© Dew-MD
+© DEW-XMD
 > 💡 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 💡
 `
 

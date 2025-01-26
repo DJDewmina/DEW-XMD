@@ -77,8 +77,8 @@ const handler = async (m, { args, conn, usedprefix }) => {
     }
 };
 
-handler.help = ['ytmp4', 'ytv'];
+handler.help = ['video'];
 handler.tags = ['dl'];
-handler.command = ['ytmp4', 'ytv'];
+handler.command = ['video'];
 
 export default handler;
