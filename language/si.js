@@ -1,16 +1,17 @@
 const translations = {
     
-    afktemx: 'Dude, do you want to leave a whole testament or what?',
+    afktemx: 'මචන්, ඔයාට සම්පූර්ණ testament එකක්ද නැත්නම් මොකක්ද?',
     afkdone: 'AFK Set',
-    afkdel: 'Welcome back',
-    afktime: 'Away since',
-    with: 'Reason',
-    afkmsg: 'I will notify anyone who mentions you',
+    afkdel: 'සාදරයෙන් පිළිගනිමු',
+    afktime: 'එතැන් සිට බැහැරයි',
+    with: 'හේතුව
+        ',
+    afkmsg: 'ඔබව සඳහන් කරන ඕනෑම කෙනෙකුට මම දැනුම් දෙන්නම්.',
     afktag: 'The user is AFK',
-    name: 'Name',
-    noMention: 'Mention a User',
-    userDb: 'The user is not in my database',
-    example: 'Example',
+    name: 'නම',
+    noMention: 'පරිශීලකයෙකු සඳහන් කරන්න',
+    userDb: 'පරිශීලකයා මගේ දත්ත සමුදායේ නොමැත.',
+    example: 'උදාහරණයක්',
 
     //-- Stick reaction
     killmsg: 'Killed',
@@ -18,11 +19,11 @@ const translations = {
     patmsg: 'Pat',
     slapmsg: 'Slapped',
 
-    next: 'Next',
-    hi: 'Hello',
-    gp: 'Group',
-    nobbot: 'This command can only be used in the main bot',
-    botqr: '*Use this Code to become a Bot*\n\n1. Click on the three dots in the top right corner.\n2. Tap Linked Devices.\n3. Select *Link with phone number*\n\n*Note:* The code is only valid for this number.',
+    next: 'ඊළඟ',
+    hi: 'ආයුබෝවන්',
+    gp: 'සමූහය',
+    nobbot: 'මෙම විධානය භාවිතා කළ හැක්කේ ප්‍රධාන බොට් එකේ පමණි.',
+    botqr: '*බොට් එකක් වීමට මෙම කේතය භාවිතා කරන්න.*\n\n1. ඉහළ දකුණු කෙළවරේ ඇති තිත් තුන මත ක්ලික් කරන්න.\n2. Linked Devices මත තට්ටු කරන්න.\n3. තෝරාගන්න *Link with phone number*\n\n*Note:* කේතය වලංගු වන්නේ මෙම අංකයට පමණි.',
     recon: 'Connection lost...',
     sesClose: 'The connection has been closed, you have to manually connect by sending the *ID*',
     connet: 'Connected successfully',
