@@ -21,7 +21,7 @@ for (let i = 0; i < ownerlist.length; i++) {
 //
 global.botname = process.env.BOTNAME || 'DEW-XMD';
 global.pairingNumber = process.env.BOT_NUMBER || '94778721239';  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '7JonVbgS#SjSZR6KrO51ueXxv8lFKjctF2eCVkAFNwB9PHgkKnxs';  // put your session id here
+global.SESSION_ID = process.env.SESSION_ID || '';  // put your session id here
 
 global.mods = []
 global.prems = []
